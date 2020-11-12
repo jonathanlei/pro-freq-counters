@@ -1,5 +1,5 @@
 // add whatever parameters you deem necessary & write doc comment
-
+"use strict";
 /* takes in a word string and a letters string, and return true if the word can be constructed out of the letters*/
 function canConstructWord(word, letters) {
   // create fcs for word and letter 

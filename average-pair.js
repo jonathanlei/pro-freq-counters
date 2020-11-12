@@ -1,6 +1,6 @@
 
-
-/* takes an numbers array and a number, return if there is a pair whose average is equal to the number*/
+'use strict';
+/* takes an numbers array and a number, return true if there is a pair whose average is equal to the number*/
 function averagePair(numsArray, avg) {
   // multiple pointers
   let start = 0;
