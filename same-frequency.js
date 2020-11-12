@@ -9,8 +9,8 @@ function sameFrequency(integer1, integer2) {
 
 	if (int1String.length !== int2String.length) return false;
 
-	const int1FrequencyCounter = createFrequencyCounter(int1String); 
-	const int2FrequencyCounter = createFrequencyCounter(int2String);
+	let int1FrequencyCounter = createFrequencyCounter(int1String); 
+	let int2FrequencyCounter = createFrequencyCounter(int2String);
 
 	for (let key in int1FrequencyCounter) {
 		if (int1FrequencyCounter[key] !== int2FrequencyCounter[key]) {
